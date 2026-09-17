@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 1</title>
+</head>
+<body>
+    <main>
+        <h1>Lab task 1:</h1>
+        
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" autocomplete="new-password">
+            </div>
+            
+                <legend>Gender:</legend>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+        
+        
+                <legend>Skills:</legend>
+                <label><input type="checkbox" name="skills" value="html"> HTML</label>
+                <label><input type="checkbox" name="skills" value="css"> CSS</label>
+            
+            <div>
+                <label for="course">Course:</label>
+                <select id="course" name="course">
+                    <option value="web-development">Web Development</option>
+                    <option value="graphic-design">Graphic Design</option>
+                    <option value="data-science">Data Science</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+    </main>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: times new roman, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e7dcf8;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    color: #bf3737;
+    padding: 20px;
+}
+h1:hover {
+    color: #3b1212;
+    box-shadow: 2px 2px 5px #550d0d;
+    transform: scale(1.05);
+}
+h2 {
+    text-align: center;
+    color: #886565;
+    font-size: 25px;
+    border-left: 5px solid #886565;
+}
+h3 {
+    text-align: center;
+    color: #677a67;
+    font-size: 15px;
+    border-left: 5px solid #677a67;
+}
+ul {
+    list-style-type: square;
+    padding: 0;
+    color: #ffffff;
+}
+ol {
+    list-style-type: decimal;
+    padding: 0;
+    color: #8c7272;
+}
+p {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-shadow: 2px 6px 4px #770b0b;
+}
+p:hover {
+    color: #000000;
+    text-shadow: 2px 6px 4px #958b8b;
+}
+.title {
+    text-align: center;
+    color: #050000;
+    font-size: 30px;
+    text-shadow: 2px 6px 4px #aca1a1;
+}
+    .profile {
+      background-color: #f0f4f8;
+      border: 2px solid navy;
+      padding: 20px;
+      text-align: center;
+      width: 320px;
+      margin: 40px auto;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+    }
+
+    #student-name {
+      color: rgb(33, 37, 41);
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .student-details {
+      color: rgb(100, 100, 100);
+      font-size: 14px;
+      margin: 4px 0;
+    }
